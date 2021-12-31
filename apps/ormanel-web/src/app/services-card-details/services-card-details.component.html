@@ -1,0 +1,13 @@
+<main>
+    <div class="card" *ngFor="let s of service">
+        <div class="card-img">
+            <img src={{s.image_url}} alt="software engineering">
+        </div>
+        <div class="card-title">
+            <h2><span>{{s.title.replace("DEVELOPMENT"," ")}}</span>DEVELOPMENT</h2>
+        </div>
+        <div class="card-description text-base">
+            {{s.description}}
+        </div>
+    </div>
+</main>

@@ -1,0 +1,25 @@
+main{ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .card{
+        width: 25%;
+        text-align: center;
+        margin: 20px;
+    }
+    .card-img{
+        margin: auto auto;
+        width: 150px;
+        height: 150px;
+        img{
+            border-radius: 10px;
+        }
+    }
+    .card-title{
+        padding: 5px 0px 10px 0px;
+        span{
+            color: blue;
+        }
+    }
+}

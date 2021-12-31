@@ -1,0 +1,13 @@
+section{
+    @apply mt-20 lg:mt-20 py-20 relative;
+    .section-wrapper{
+        @apply mx-auto px-2 lg:w-5/12 sm:w-3/4;
+        .section-title{
+            @apply text-5xl font-semibold text-center lg:mb-4;
+        }
+        .section-description{
+            @apply text-center text-slate-400;
+        }
+    }
+}
+

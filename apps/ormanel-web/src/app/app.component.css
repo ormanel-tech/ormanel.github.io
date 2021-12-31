@@ -1,0 +1,17 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  height: 600px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=app.component.css.map */

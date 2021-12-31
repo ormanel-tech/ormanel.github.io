@@ -1,0 +1,27 @@
+section {
+  @apply container flex justify-center mt-28 mb-20;
+  .profile-wrapper {
+    @apply flex flex-row justify-between gap-8 max-w-fit;
+    .profile {
+      @apply flex flex-1 flex-col justify-center items-center p-4 relative;
+      .profile-img {
+        @apply -top-14 absolute z-10;
+      }
+      .profile-details-wrapper {
+        @apply bg-profile-details-color p-5 text-center opacity-80 rounded;
+        .profile-name {
+          @apply mb-3 mt-16 text-2xl font-medium;
+        }
+        .profile-role {
+          @apply font-normal text-lg z-10;
+        }
+        .profile-description {
+          @apply text-slate-400 text-sm font-light mt-3;
+        }
+        .socials {
+          @apply flex justify-center items-center gap-6 mt-10;
+        }
+      }
+    }
+  }
+}

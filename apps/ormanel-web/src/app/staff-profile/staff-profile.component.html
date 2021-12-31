@@ -1,0 +1,27 @@
+<section>
+    <div class="profile-wrapper">
+        <div *ngFor="let staff of staffs " class="profile">
+            <!-- Image -->
+            <img class="profile-img top-10 w-5/12 h-5/12" src={{staff.image_url}} alt="">
+            <!-- Content -->
+            <div class="profile-details-wrapper">
+                <h1 class="profile-name">{{staff.fullname}}</h1>
+                <h2 class="profile-role">{{staff.role}}</h2>
+                <p class="profile-description">
+                    {{staff.description}}
+                </p>
+                <div class="socials">
+                    <a href={{staff.linkedin_url}}>
+                        <img src="../../assets/svg/Vector.svg" alt="" class="w-4/5 h-4/5">
+                    </a>
+                    <a href={{staff.facebook_url}}>
+                        <img src="../../assets/svg/bi_facebook.svg" alt="" class="w-4/5 h-4/5">
+                    </a>
+                    <a href={{staff.twitter_url}}>
+                        <img src="../../assets/svg/logos_twitter.svg" alt="" class="w-4/5 h-4/5">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

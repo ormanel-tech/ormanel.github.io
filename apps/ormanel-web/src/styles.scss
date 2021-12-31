@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;400&family=Shrikhand&display=swap');
+
+.btn{
+    @apply shadow-md font-normal text-base py-3 px-8 rounded-md transition duration-300;
+}
+
+.btn-blue{
+    @apply bg-join-button-color text-white;
+}
+
+.btn-white{
+    @apply bg-white;
+}

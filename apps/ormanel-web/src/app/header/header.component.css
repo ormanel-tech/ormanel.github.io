@@ -1,0 +1,17 @@
+header .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-content .logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 900px;
+}
+
+.menu-items li {
+  display: inline;
+  margin: 5px;
+}
+/*# sourceMappingURL=header.component.css.map */
