@@ -2,7 +2,7 @@
     <div class="profile-wrapper">
         <div *ngFor="let staff of staffs " class="profile">
             <!-- Image -->
-            <img class="profile-img top-10 w-5/12 h-5/12" src={{staff.image_url}} alt="">
+            <img class="profile-img top-30 w-5/12 h-5/12 lg:w-7/12 lg:h-7/12 p-10" src={{staff.image_url}} alt="">
             <!-- Content -->
             <div class="profile-details-wrapper">
                 <h1 class="profile-name">{{staff.fullname}}</h1>
@@ -10,17 +10,26 @@
                 <p class="profile-description">
                     {{staff.description}}
                 </p>
-                <div class="socials">
-                    <a href={{staff.linkedin_url}}>
-                        <img src="../../assets/svg/Vector.svg" alt="" class="w-4/5 h-4/5">
-                    </a>
-                    <a href={{staff.facebook_url}}>
-                        <img src="../../assets/svg/bi_facebook.svg" alt="" class="w-4/5 h-4/5">
+                <!-- <div class="socials"> -->
+                    <!-- <a href={{staff.linkedin_url}}>
+                        <img src="../../assets/images/linkedin.png" alt="">
                     </a>
                     <a href={{staff.twitter_url}}>
-                        <img src="../../assets/svg/logos_twitter.svg" alt="" class="w-4/5 h-4/5">
+                        <img src="../../assets/images/twitter.png" alt="">
                     </a>
-                </div>
+                    <a href={{staff.instagram_url}}>
+                        <img src="../../assets/images/instagram.png" alt="">
+                    </a> -->
+                    <!-- <a href={{staff.linkedin_url}}>
+                        <img src="../../assets/svg/linkedin.svg" alt="">
+                    </a>
+                    <a href={{staff.twitter_url}}>
+                        <img src="../../assets/svg/twitter.svg" alt="">
+                    </a>
+                    <a href={{staff.instagram_url}}>
+                        <img src="../../assets/svg/instagram.svg" alt="">
+                    </a> -->
+                <!-- </div> -->
             </div>
         </div>
     </div>

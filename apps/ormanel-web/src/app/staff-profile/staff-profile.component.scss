@@ -1,25 +1,25 @@
 section {
   @apply container flex justify-center mt-28 mb-20;
   .profile-wrapper {
-    @apply flex flex-row justify-between gap-8 max-w-fit;
+    @apply flex flex-col md:flex-row lg:flex-row lg:justify-between gap-0 max-w-fit;
     .profile {
-      @apply flex flex-1 flex-col justify-center items-center p-4 relative;
+      @apply flex flex-1 flex-col mt-16 lg:mt-6 justify-center items-center p-4 relative;
       .profile-img {
-        @apply -top-14 absolute z-10;
+        @apply -top-20 absolute z-10;
       }
       .profile-details-wrapper {
-        @apply bg-profile-details-color p-5 text-center opacity-80 rounded;
+        @apply bg-slate-50 p-5 text-center rounded;
         .profile-name {
-          @apply mb-3 mt-16 text-2xl font-medium;
+          @apply mb-3 mt-16 text-2xl font-medium text-font-color;
         }
         .profile-role {
           @apply font-normal text-lg z-10;
         }
         .profile-description {
-          @apply text-slate-400 text-sm font-light mt-3;
+          @apply text-slate-600 text-sm font-light mt-3;
         }
         .socials {
-          @apply flex justify-center items-center gap-6 mt-10;
+          @apply flex justify-center items-center gap-7 mt-10;
         }
       }
     }
